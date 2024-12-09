@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Download File",
+        "duration": 2,
+        "status": "completed"
+    },
+    {
+        "name": "Process Data",
+        "duration": 5,
+        "status": "completed"
+    },
+    {
+        "name": "Send Email",
+        "duration": 3,
+        "status": "completed"
+    }
+]

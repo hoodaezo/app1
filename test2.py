@@ -1,0 +1,5 @@
+print ("your name is hooda")
+print(" your ege 20")
+print("your bread is b")
+print("your gpa is 2.3")
+print("you is success")
