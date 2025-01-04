@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- تحديد الترميز المستخدم لدعم جميع الحروف -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- لجعل الصفحة متجاوبة مع جميع الأجهزة -->
+    <title>Guess the Number</title> <!-- عنوان الصفحة الذي يظهر في شريط المتصفح -->
+
+</head>
+<body>
+    <!-- عنوان اللعبة -->
+    <h1>Guess the Number</h1> <!-- يظهر كعنوان رئيسي للعبة -->
+
+    <!-- وصف اللعبة -->
+    <p>Try to guess the number between 1 and 100!</p> <!-- رسالة إرشادية للمستخدم -->
+
+    <!-- إدخال الرقم -->
+    <label for="guess">Your Guess:</label> <!-- وصف حقل إدخال الرقم -->
+    <input type="number" id="guess" min="1" max="100" /> <!-- حقل إدخال الرقم مع تحديد الحد الأدنى والأقصى -->
+
+    <!-- زر التخمين -->
+    <button id="submitGuess">Submit</button> <!-- زر لإرسال التخمين -->
+
+    <!-- رسالة النتيجة -->
+    <p id="message"></p> <!-- عنصر لعرض النتيجة أو رسائل الخطأ -->
+
+    <!-- عرض عدد المحاولات -->
+    <p>Attempts: <span id="attempts">0</span></p> <!-- عنصر لعرض عدد المحاولات التي قام بها المستخدم -->
+
+    <!-- تضمين ملف CSS لتنسيق الصفحة -->
+    <link rel="stylesheet" href="G:\vib codeing\thml\css\test26.css">
+    <!-- تضمين ملف JavaScript للمنطق الخاص باللعبة -->
+    <script src="G:\vib codeing\thml\css\test26.js" defer></script> <!-- defer يضمن تحميل الملف بعد تحميل الصفحة -->
+</body>
+</html>

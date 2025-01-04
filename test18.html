@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> test project</title>
+    <!-- ربط Bootstrap CDN -->
+    <link href="G:\vib codeing\thml\css\test18.css  " rel="stylesheet">
+    <!-- ربط ملف CSS الخاص -->
+    <link rel="stylesheet" href="G:\vib codeing\thml\css\test18.css ">
+</head>
+<body>
+    <!-- شريط التنقل -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">MySite</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- القسم الرئيسي (Home Section) -->
+    <section id="home" class="bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1>Welcome to My Responsive Website</h1>
+            <p class="lead">This is a one-page website designed with Bootstrap.</p>
+            <a href="#about" class="btn btn-light btn-lg">Learn More</a>
+        </div>
+    </section>
+
+    <!-- قسم "نبذة عني" (About Section) -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="text-center">About Me</h2>
+            <p class="text-center text-muted">Here’s a short introduction about me.</p>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="https://via.placeholder.com/500x300" alt="About Image" class="img-fluid rounded">
+                </div>
+                <div class="col-md-6">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac libero vitae urna vehicula consequat.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم الخدمات (Services Section) -->
+    <section id="services" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center">Our Services</h2>
+            <p class="text-center text-muted">Check out the awesome services we offer.</p>
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <i class="bi bi-laptop display-4 text-primary"></i>
+                    <h4>Web Development</h4>
+                    <p>We build modern and responsive websites.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <i class="bi bi-phone display-4 text-primary"></i>
+                    <h4>Mobile Apps</h4>
+                    <p>Creating user-friendly mobile applications.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <i class="bi bi-graph-up display-4 text-primary"></i>
+                    <h4>SEO Optimization</h4>
+                    <p>Improving your website's search engine ranking.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم التواصل (Contact Section) -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Contact Us</h2>
+            <p class="text-center text-muted">Feel free to reach out to us!</p>
+            <form>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <input type="text" class="form-control" placeholder="Your Name" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <input type="email" class="form-control" placeholder="Your Email" required>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- الفوتر (Footer) -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 MySite. All Rights Reserved.</p>
+    </footer>
+
+    <!-- ربط Bootstrap JavaScript -->
+    <script src="G:\vib codeing\thml\java scrpt\test18.js"></script>
+</body>
+</html>

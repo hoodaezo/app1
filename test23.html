@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced HTML Page</title>
+    <link rel="stylesheet" href="G:\vib codeing\thml\css\test23.css ">
+</head>
+
+<body>
+    <!-- شريط التنقل -->
+    <nav>
+        <h1>Advanced Web</h1>
+        <div>
+            <a href="#gallery">Gallery</a>
+            <a href="#form">Contact</a>
+        </div>
+    </nav>
+
+    <!-- معرض الصور -->
+    <section id="gallery" class="container animate">
+        <div class="card">
+            <img src="https://via.placeholder.com/300" alt="Image 1">
+            <h3>Card Title 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/300" alt="Image 2">
+            <h3>Card Title 2</h3>
+            <p>Curabitur nec libero vulputate, fermentum ligula at, facilisis elit.</p>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/300" alt="Image 3">
+            <h3>Card Title 3</h3>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
+        </div>
+    </section>
+
+    <!-- نموذج الاتصال -->
+    <section id="form">
+        <form>
+            <h2>Contact Us</h2>
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="button" onclick="validateForm()">Submit</button>
+        </form>
+    </section>
+
+    <!-- شريط التذييل -->
+    <footer>
+        &copy; 2024 Advanced Web. All Rights Reserved.
+    </footer>
+
+    <script src="G:\vib codeing\thml\css\test23.js"></script>
+</body>
+
+</html>
