@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    margin-top: 20px;
+    color: #333;
+}
+
+.game-board {
+    width: 400px;
+    height: 400px;
+    background-color: #000;
+    margin: 20px auto;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid #333;
+}
+
+.game-board div {
+    width: 20px;
+    height: 20px;
+    box-sizing: border-box;
+}
+
+.snake {
+    background-color: #00ff00;
+}
+
+.food {
+    background-color: #ff0000;
+}
+
+p {
+    color: #333;
+    font-size: 18px;
+}

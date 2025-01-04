@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #282c34;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+
+/* تنسيق التوقيت */
+#day {
+    font-size: 10rem;
+    margin-bottom: 40px;
+    background: #444;
+    border-radius: 40px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+   
+}
+

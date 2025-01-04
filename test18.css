@@ -1,0 +1,126 @@
+/* الأساسيات لتنسيق الصفحة */
+
+/* تصميم الخلفية والخطوط العامة */
+body {
+    font-family: 'Arial', sans-serif; /* خط بسيط وسهل القراءة */
+    line-height: 1.6; /* تحسين المسافة بين الأسطر */
+    margin: 0; /* إزالة الهوامش الافتراضية */
+    padding: 0; /* إزالة الحواف الافتراضية */
+}
+
+/* تصميم شريط التنقل */
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* إضافة ظل خفيف لشريط التنقل */
+}
+
+.navbar-brand {
+    font-weight: bold; /* خط غامق للعنوان */
+    font-size: 1.5rem; /* تكبير حجم العنوان */
+    color: #007bff; /* لون أزرق مميز */
+}
+
+.navbar-brand:hover {
+    color: #0056b3; /* لون أزرق أغمق عند التمرير */
+}
+
+.nav-link {
+    color: #333; /* لون رمادي داكن */
+    font-size: 1rem; /* حجم الخط المتوسط */
+    margin-left: 10px; /* مسافة بين العناصر */
+}
+
+.nav-link:hover {
+    color: #007bff; /* تغيير اللون عند التمرير */
+}
+
+/* قسم الرئيسية */
+#home {
+    background-image: url('https://via.placeholder.com/1920x1080'); /* صورة خلفية */
+    background-size: cover; /* ضبط الصورة لتملأ الخلفية */
+    background-position: center; /* توسيط الصورة */
+    color: white; /* لون النص أبيض */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* ظل النص */
+    height: 100vh; /* جعل القسم يغطي الشاشة */
+    display: flex; /* محاذاة النص */
+    flex-direction: column; /* ترتيب العناصر بشكل عمودي */
+    justify-content: center; /* توسيط عمودي */
+    align-items: center; /* توسيط أفقي */
+}
+
+#home h1 {
+    font-size: 3rem; /* تكبير حجم العنوان */
+    margin-bottom: 20px; /* مسافة تحت العنوان */
+}
+
+#home p {
+    font-size: 1.25rem; /* تكبير حجم النص */
+    margin-bottom: 30px; /* مسافة تحت النص */
+}
+
+/* قسم النبذة */
+#about img {
+    border-radius: 10px; /* جعل الحواف دائرية */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* إضافة ظل خفيف */
+}
+
+#about h2 {
+    font-weight: bold; /* خط غامق للعنوان */
+    color: #333; /* لون رمادي داكن */
+    margin-bottom: 20px; /* مسافة تحت العنوان */
+}
+
+#about p {
+    color: #666; /* لون رمادي فاتح */
+    font-size: 1.1rem; /* حجم النص */
+}
+
+/* قسم الخدمات */
+#services .col-md-4 {
+    margin-bottom: 30px; /* مسافة بين العناصر */
+}
+
+#services h4 {
+    font-size: 1.25rem; /* تكبير حجم العنوان */
+    margin-top: 15px; /* مسافة فوق العنوان */
+}
+
+#services p {
+    color: #555; /* لون رمادي متوسط */
+    margin-top: 10px; /* مسافة فوق النص */
+}
+
+/* قسم التواصل */
+#contact input, #contact textarea {
+    border: 1px solid #ccc; /* إضافة حدود خفيفة */
+    border-radius: 5px; /* جعل الحواف دائرية */
+    padding: 10px; /* مسافة داخلية */
+    width: 100%; /* ملء العرض */
+    margin-bottom: 15px; /* مسافة بين الحقول */
+    font-size: 1rem; /* حجم الخط */
+}
+
+#contact button {
+    background-color: #007bff; /* لون أزرق مميز */
+    color: white; /* لون النص أبيض */
+    padding: 10px 20px; /* مسافة داخل الزر */
+    border: none; /* إزالة الحدود */
+    border-radius: 5px; /* جعل الزوايا دائرية */
+    cursor: pointer; /* تغيير المؤشر لشكل اليد */
+    font-size: 1.1rem; /* تكبير النص داخل الزر */
+}
+
+#contact button:hover {
+    background-color: #0056b3; /* لون أزرق أغمق عند التمرير */
+}
+
+/* الفوتر */
+footer {
+    background-color: #333; /* خلفية رمادية داكنة */
+    color: white; /* لون النص أبيض */
+    padding: 15px 0; /* مسافة داخلية */
+}
+
+footer p {
+    margin: 0; /* إزالة الهوامش */
+    font-size: 0.9rem; /* تصغير حجم النص */
+}

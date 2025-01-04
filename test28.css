@@ -1,0 +1,25 @@
+
+  /* تنسيق الصفحة */
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #222;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+
+  h1 {
+    margin-top: 20px;
+  }
+
+  canvas {
+    display: block;
+    margin: 20px auto;
+    border: 1px solid #fff;
+  }
+  p{
+    font-size: 20px;
+    
+  }
+
