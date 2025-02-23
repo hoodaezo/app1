@@ -1,0 +1,148 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: right;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 8cm;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    transition: color 0.3s;
+  
+   display: flex; /* تفعيل flexbox */
+   justify-content: center; /* محاذاة أفقية في المنتصف */
+   align-items: center; /* محاذاة عمودية في المنتصف */
+   height: 100vh; /* جعل العنصر يأخذ ارتفاع الشاشة بالكامل */
+    
+    
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    background-image: url('G:\vib codeing\thml\Screenshot_٢٠٢٥٠٢٢٣_١٨٢٠٥٠[1].jpg');
+    background-size: cover;
+    background-position: center;
+    color: #310b0b;
+    text-align: center;
+    padding: 100px 20px;
+
+    display: flex; /* تفعيل flexbox لتمركز العناصر */
+    justify-content: center; /* محاذاة العنصر أفقيًا في المنتصف */
+    align-items: center; /* محاذاة العنصر عموديًا في المنتصف */
+    height: 100vh; /* جعل العنصر يأخذ ارتفاع الشاشة بالكامل */
+    
+    
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin: 10px 0 20px;
+}
+
+.hero .cta {
+    background-color: #db6156;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.products {
+    padding: 20px;
+    text-align: center;
+}
+
+.products h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    background-color: #ee2323;
+    border: 1px solid #494747;
+    border-radius: 5px;
+    padding: 20px;
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+}
+
+.product-card img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.product-card h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.product-card p {
+    font-size: 0.9em;
+    color: #666;
+}
+
+.product-card .price {
+    font-size: 1.1em;
+    color: #333;
+    font-weight: bold;
+}
+
+.product-card button {
+    background-color: #ff6f61;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
